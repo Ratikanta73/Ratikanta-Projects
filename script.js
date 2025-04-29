@@ -175,7 +175,7 @@ contactForm.addEventListener('submit', (e) => {
     // Format message for WhatsApp
     if (sendToWhatsApp) {
         const formattedMessage = `
-*New Contact Form Submission*
+*Contact Form Submission*
 ------------------------
 *Name:* ${nameInput.value}
 *Email:* ${emailInput.value}
